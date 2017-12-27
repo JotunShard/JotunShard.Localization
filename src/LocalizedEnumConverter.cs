@@ -11,13 +11,8 @@ namespace JotunShard.Localization
     public class LocalizedEnumConverter<TResourceManager> : EnumConverter
         where TResourceManager : ResourceManager
     {
-        private const string
-            FlagsDelimeter = ", ";
-
-        private static readonly char[]
-            FlagsSeparators = FlagsDelimeter.ToCharArray();
-
-        private static readonly Dictionary<CultureInfo, Dictionary<string, object>> localizations = new Dictionary<CultureInfo, Dictionary<string, object>>();
+        private static readonly Dictionary<CultureInfo, Dictionary<string, object>>
+            localizations = new Dictionary<CultureInfo, Dictionary<string, object>>();
 
         private readonly ResourceManager res;
 
@@ -41,18 +36,19 @@ namespace JotunShard.Localization
             if (!(value is string stringValue))
                 return base.ConvertFrom(context, culture, value);
             culture = culture ?? CultureInfo.CurrentCulture;
-            if (!localizations.TryGetValue(culture, out Dictionary<string, object> conversions))
-                localizations.Add(
-                    culture,
-                    conversions = GetStandardValues(context)
-                        .Cast<object>()
-                        .ToDictionary(v => LocalizeValue(culture, v), v => v));
-            conversions.TryGetValue(stringValue, out object result);
+            if (!localizations.TryGetValue(culture, out var conversions))
+            {
+                conversions = GetStandardValues(context)
+                    .Cast<object>()
+                    .ToDictionary(v => LocalizeValue(culture, v), v => v);
+                localizations.Add(culture, conversions);
+            }
+            conversions.TryGetValue(stringValue, out var result);
             return (flagValues?.Length ?? 0) == 0
                 ? result
                 : Enum.ToObject(
                     EnumType,
-                    stringValue.Split(FlagsSeparators)
+                    stringValue.Split(Constants.FlagsSeparators.ToArray())
                         .Join(conversions, v => v, c => c.Key, (v, c) => c.Value)
                         .Aggregate(0u, (r, v) => r | Convert.ToUInt32(v)));
         }
@@ -66,7 +62,7 @@ namespace JotunShard.Localization
                 return LocalizeValue(culture, value);
             var valueFlags = Convert.ToUInt32(value);
             return string.Join(
-                FlagsDelimeter,
+                Constants.FlagsDelimeter,
                 flagValues
                     .Cast<object>()
                     .Select(f => new
