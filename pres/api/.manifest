@@ -1,7 +1,7 @@
 {
   "JotunShard.Localization": "JotunShard.Localization.yml",
-  "JotunShard.Localization.LocalizedEnumConverter`1": "JotunShard.Localization.LocalizedEnumConverter-1.yml",
-  "JotunShard.Localization.LocalizedEnumConverter`1.#ctor(System.Type)": "JotunShard.Localization.LocalizedEnumConverter-1.yml",
-  "JotunShard.Localization.LocalizedEnumConverter`1.ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object)": "JotunShard.Localization.LocalizedEnumConverter-1.yml",
-  "JotunShard.Localization.LocalizedEnumConverter`1.ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type)": "JotunShard.Localization.LocalizedEnumConverter-1.yml"
+  "JotunShard.Localization.LocalizedEnumConverter": "JotunShard.Localization.LocalizedEnumConverter.yml",
+  "JotunShard.Localization.LocalizedEnumConverter.#ctor(System.Type,Microsoft.Extensions.Localization.IStringLocalizerFactory,System.Type)": "JotunShard.Localization.LocalizedEnumConverter.yml",
+  "JotunShard.Localization.LocalizedEnumConverter.ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object)": "JotunShard.Localization.LocalizedEnumConverter.yml",
+  "JotunShard.Localization.LocalizedEnumConverter.ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type)": "JotunShard.Localization.LocalizedEnumConverter.yml"
 }
