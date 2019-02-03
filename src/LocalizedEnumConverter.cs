@@ -1,26 +1,25 @@
-﻿using System;
+﻿using Microsoft.Extensions.Localization;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Globalization;
 using System.Linq;
 using System.Reflection;
-using System.Resources;
 
 namespace JotunShard.Localization
 {
-    public class LocalizedEnumConverter<TResourceManager> : EnumConverter
-        where TResourceManager : ResourceManager
+    public class LocalizedEnumConverter : EnumConverter
     {
         private static readonly Dictionary<CultureInfo, Dictionary<string, object>>
             localizations = new Dictionary<CultureInfo, Dictionary<string, object>>();
 
-        private readonly ResourceManager res;
+        private readonly IStringLocalizer localizer;
 
         private readonly Array flagValues;
 
-        public LocalizedEnumConverter(Type EnumType) : base(EnumType)
+        public LocalizedEnumConverter(Type EnumType, IStringLocalizerFactory localizerFactory, Type resourceSource = null) : base(EnumType)
         {
-            res = new ResourceManager(typeof(TResourceManager));
+            localizer = localizerFactory.Create(resourceSource ?? EnumType);
             if (EnumType.GetTypeInfo().GetCustomAttributes(typeof(FlagsAttribute), true).Any())
                 flagValues = Enum.GetValues(EnumType);
         }
@@ -28,7 +27,7 @@ namespace JotunShard.Localization
         private string LocalizeValue(CultureInfo culture, object value)
         {
             var name = $"{EnumType.Name}_{value}";
-            return res.GetString(name, culture) ?? name;
+            return localizer.GetString(name, culture) ?? name;
         }
 
         public override object ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, object value)
