@@ -1,7 +1,6 @@
-﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace JotunShard.Localization.Test
+namespace spec
 {
     [TestClass]
     public class UnitTest1
