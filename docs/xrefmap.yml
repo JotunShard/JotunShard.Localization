@@ -7,60 +7,48 @@ references:
   commentId: N:JotunShard.Localization
   fullName: JotunShard.Localization
   nameWithType: JotunShard.Localization
-- uid: JotunShard.Localization.LocalizedEnumConverter`1
-  name: LocalizedEnumConverter<TResourceManager>
-  href: api/JotunShard.Localization.LocalizedEnumConverter-1.html
-  commentId: T:JotunShard.Localization.LocalizedEnumConverter`1
-  name.vb: LocalizedEnumConverter(Of TResourceManager)
-  fullName: JotunShard.Localization.LocalizedEnumConverter<TResourceManager>
-  fullName.vb: JotunShard.Localization.LocalizedEnumConverter(Of TResourceManager)
-  nameWithType: LocalizedEnumConverter<TResourceManager>
-  nameWithType.vb: LocalizedEnumConverter(Of TResourceManager)
-- uid: JotunShard.Localization.LocalizedEnumConverter`1.#ctor(System.Type)
-  name: LocalizedEnumConverter(Type)
-  href: api/JotunShard.Localization.LocalizedEnumConverter-1.html#JotunShard_Localization_LocalizedEnumConverter_1__ctor_System_Type_
-  commentId: M:JotunShard.Localization.LocalizedEnumConverter`1.#ctor(System.Type)
-  fullName: JotunShard.Localization.LocalizedEnumConverter<TResourceManager>.LocalizedEnumConverter(System.Type)
-  fullName.vb: JotunShard.Localization.LocalizedEnumConverter(Of TResourceManager).LocalizedEnumConverter(System.Type)
-  nameWithType: LocalizedEnumConverter<TResourceManager>.LocalizedEnumConverter(Type)
-  nameWithType.vb: LocalizedEnumConverter(Of TResourceManager).LocalizedEnumConverter(Type)
-- uid: JotunShard.Localization.LocalizedEnumConverter`1.#ctor*
+- uid: JotunShard.Localization.LocalizedEnumConverter
   name: LocalizedEnumConverter
-  href: api/JotunShard.Localization.LocalizedEnumConverter-1.html#JotunShard_Localization_LocalizedEnumConverter_1__ctor_
-  commentId: Overload:JotunShard.Localization.LocalizedEnumConverter`1.#ctor
-  fullName: JotunShard.Localization.LocalizedEnumConverter<TResourceManager>.LocalizedEnumConverter
-  fullName.vb: JotunShard.Localization.LocalizedEnumConverter(Of TResourceManager).LocalizedEnumConverter
-  nameWithType: LocalizedEnumConverter<TResourceManager>.LocalizedEnumConverter
-  nameWithType.vb: LocalizedEnumConverter(Of TResourceManager).LocalizedEnumConverter
-- uid: JotunShard.Localization.LocalizedEnumConverter`1.ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object)
+  href: api/JotunShard.Localization.LocalizedEnumConverter.html
+  commentId: T:JotunShard.Localization.LocalizedEnumConverter
+  fullName: JotunShard.Localization.LocalizedEnumConverter
+  nameWithType: LocalizedEnumConverter
+- uid: JotunShard.Localization.LocalizedEnumConverter.#ctor(System.Type,Microsoft.Extensions.Localization.IStringLocalizerFactory,System.Type)
+  name: LocalizedEnumConverter(Type, IStringLocalizerFactory, Type)
+  href: api/JotunShard.Localization.LocalizedEnumConverter.html#JotunShard_Localization_LocalizedEnumConverter__ctor_System_Type_Microsoft_Extensions_Localization_IStringLocalizerFactory_System_Type_
+  commentId: M:JotunShard.Localization.LocalizedEnumConverter.#ctor(System.Type,Microsoft.Extensions.Localization.IStringLocalizerFactory,System.Type)
+  fullName: JotunShard.Localization.LocalizedEnumConverter.LocalizedEnumConverter(System.Type, Microsoft.Extensions.Localization.IStringLocalizerFactory, System.Type)
+  nameWithType: LocalizedEnumConverter.LocalizedEnumConverter(Type, IStringLocalizerFactory, Type)
+- uid: JotunShard.Localization.LocalizedEnumConverter.#ctor*
+  name: LocalizedEnumConverter
+  href: api/JotunShard.Localization.LocalizedEnumConverter.html#JotunShard_Localization_LocalizedEnumConverter__ctor_
+  commentId: Overload:JotunShard.Localization.LocalizedEnumConverter.#ctor
+  isSpec: "True"
+  fullName: JotunShard.Localization.LocalizedEnumConverter.LocalizedEnumConverter
+  nameWithType: LocalizedEnumConverter.LocalizedEnumConverter
+- uid: JotunShard.Localization.LocalizedEnumConverter.ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object)
   name: ConvertFrom(ITypeDescriptorContext, CultureInfo, Object)
-  href: api/JotunShard.Localization.LocalizedEnumConverter-1.html#JotunShard_Localization_LocalizedEnumConverter_1_ConvertFrom_System_ComponentModel_ITypeDescriptorContext_System_Globalization_CultureInfo_System_Object_
-  commentId: M:JotunShard.Localization.LocalizedEnumConverter`1.ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object)
-  fullName: JotunShard.Localization.LocalizedEnumConverter<TResourceManager>.ConvertFrom(System.ComponentModel.ITypeDescriptorContext, System.Globalization.CultureInfo, System.Object)
-  fullName.vb: JotunShard.Localization.LocalizedEnumConverter(Of TResourceManager).ConvertFrom(System.ComponentModel.ITypeDescriptorContext, System.Globalization.CultureInfo, System.Object)
-  nameWithType: LocalizedEnumConverter<TResourceManager>.ConvertFrom(ITypeDescriptorContext, CultureInfo, Object)
-  nameWithType.vb: LocalizedEnumConverter(Of TResourceManager).ConvertFrom(ITypeDescriptorContext, CultureInfo, Object)
-- uid: JotunShard.Localization.LocalizedEnumConverter`1.ConvertFrom*
+  href: api/JotunShard.Localization.LocalizedEnumConverter.html#JotunShard_Localization_LocalizedEnumConverter_ConvertFrom_System_ComponentModel_ITypeDescriptorContext_System_Globalization_CultureInfo_System_Object_
+  commentId: M:JotunShard.Localization.LocalizedEnumConverter.ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object)
+  fullName: JotunShard.Localization.LocalizedEnumConverter.ConvertFrom(System.ComponentModel.ITypeDescriptorContext, System.Globalization.CultureInfo, System.Object)
+  nameWithType: LocalizedEnumConverter.ConvertFrom(ITypeDescriptorContext, CultureInfo, Object)
+- uid: JotunShard.Localization.LocalizedEnumConverter.ConvertFrom*
   name: ConvertFrom
-  href: api/JotunShard.Localization.LocalizedEnumConverter-1.html#JotunShard_Localization_LocalizedEnumConverter_1_ConvertFrom_
-  commentId: Overload:JotunShard.Localization.LocalizedEnumConverter`1.ConvertFrom
-  fullName: JotunShard.Localization.LocalizedEnumConverter<TResourceManager>.ConvertFrom
-  fullName.vb: JotunShard.Localization.LocalizedEnumConverter(Of TResourceManager).ConvertFrom
-  nameWithType: LocalizedEnumConverter<TResourceManager>.ConvertFrom
-  nameWithType.vb: LocalizedEnumConverter(Of TResourceManager).ConvertFrom
-- uid: JotunShard.Localization.LocalizedEnumConverter`1.ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type)
+  href: api/JotunShard.Localization.LocalizedEnumConverter.html#JotunShard_Localization_LocalizedEnumConverter_ConvertFrom_
+  commentId: Overload:JotunShard.Localization.LocalizedEnumConverter.ConvertFrom
+  isSpec: "True"
+  fullName: JotunShard.Localization.LocalizedEnumConverter.ConvertFrom
+  nameWithType: LocalizedEnumConverter.ConvertFrom
+- uid: JotunShard.Localization.LocalizedEnumConverter.ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type)
   name: ConvertTo(ITypeDescriptorContext, CultureInfo, Object, Type)
-  href: api/JotunShard.Localization.LocalizedEnumConverter-1.html#JotunShard_Localization_LocalizedEnumConverter_1_ConvertTo_System_ComponentModel_ITypeDescriptorContext_System_Globalization_CultureInfo_System_Object_System_Type_
-  commentId: M:JotunShard.Localization.LocalizedEnumConverter`1.ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type)
-  fullName: JotunShard.Localization.LocalizedEnumConverter<TResourceManager>.ConvertTo(System.ComponentModel.ITypeDescriptorContext, System.Globalization.CultureInfo, System.Object, System.Type)
-  fullName.vb: JotunShard.Localization.LocalizedEnumConverter(Of TResourceManager).ConvertTo(System.ComponentModel.ITypeDescriptorContext, System.Globalization.CultureInfo, System.Object, System.Type)
-  nameWithType: LocalizedEnumConverter<TResourceManager>.ConvertTo(ITypeDescriptorContext, CultureInfo, Object, Type)
-  nameWithType.vb: LocalizedEnumConverter(Of TResourceManager).ConvertTo(ITypeDescriptorContext, CultureInfo, Object, Type)
-- uid: JotunShard.Localization.LocalizedEnumConverter`1.ConvertTo*
+  href: api/JotunShard.Localization.LocalizedEnumConverter.html#JotunShard_Localization_LocalizedEnumConverter_ConvertTo_System_ComponentModel_ITypeDescriptorContext_System_Globalization_CultureInfo_System_Object_System_Type_
+  commentId: M:JotunShard.Localization.LocalizedEnumConverter.ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type)
+  fullName: JotunShard.Localization.LocalizedEnumConverter.ConvertTo(System.ComponentModel.ITypeDescriptorContext, System.Globalization.CultureInfo, System.Object, System.Type)
+  nameWithType: LocalizedEnumConverter.ConvertTo(ITypeDescriptorContext, CultureInfo, Object, Type)
+- uid: JotunShard.Localization.LocalizedEnumConverter.ConvertTo*
   name: ConvertTo
-  href: api/JotunShard.Localization.LocalizedEnumConverter-1.html#JotunShard_Localization_LocalizedEnumConverter_1_ConvertTo_
-  commentId: Overload:JotunShard.Localization.LocalizedEnumConverter`1.ConvertTo
-  fullName: JotunShard.Localization.LocalizedEnumConverter<TResourceManager>.ConvertTo
-  fullName.vb: JotunShard.Localization.LocalizedEnumConverter(Of TResourceManager).ConvertTo
-  nameWithType: LocalizedEnumConverter<TResourceManager>.ConvertTo
-  nameWithType.vb: LocalizedEnumConverter(Of TResourceManager).ConvertTo
+  href: api/JotunShard.Localization.LocalizedEnumConverter.html#JotunShard_Localization_LocalizedEnumConverter_ConvertTo_
+  commentId: Overload:JotunShard.Localization.LocalizedEnumConverter.ConvertTo
+  isSpec: "True"
+  fullName: JotunShard.Localization.LocalizedEnumConverter.ConvertTo
+  nameWithType: LocalizedEnumConverter.ConvertTo
