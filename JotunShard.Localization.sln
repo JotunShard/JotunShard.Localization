@@ -5,13 +5,13 @@ VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JotunShard.Localization", "src\JotunShard.Localization.csproj", "{A49B4E2E-FEC3-4D1A-87EE-C3743CDC937F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JotunShard.Localization.Test", "spec\JotunShard.Localization.Test.csproj", "{1CBFDC96-50FE-4EC3-8F59-FC074870FC5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JotunShard.Localization.Test", "spec\JotunShard.Localization.Test.csproj", "{1CBFDC96-50FE-4EC3-8F59-FC074870FC5F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F0E339C7-5017-4220-853B-2CFFB6929E3F}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 		CodeMaid.config = CodeMaid.config
-		JotunShard.Extensions.sln.vsspell = JotunShard.Extensions.sln.vsspell
+		JotunShard.Localization.sln.vsspell = JotunShard.Localization.sln.vsspell
 		LICENSE = LICENSE
 		README.md = README.md
 	EndProjectSection
@@ -69,5 +69,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{5BB9C41D-42B6-47A0-A4A3-9640D5FC0858} = {652CECA8-AF05-464D-BCBC-477F17F8ABDC}
 		{43325280-06B7-4364-938C-DC7B89C88517} = {652CECA8-AF05-464D-BCBC-477F17F8ABDC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {705E0A5C-E743-44F2-BF4B-84EEF6764F79}
 	EndGlobalSection
 EndGlobal
