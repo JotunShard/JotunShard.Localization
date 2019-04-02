@@ -1,1 +1,1 @@
-[see here](http://todogroup.org/opencodeofconduct)
+.files/.github/CODE_OF_CONDUCT.md
