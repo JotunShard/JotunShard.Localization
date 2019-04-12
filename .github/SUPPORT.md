@@ -1,1 +1,1 @@
-.files/.github/SUPPORT.md
+[see here](https://help.github.com/articles/adding-support-resources-to-your-project/)
